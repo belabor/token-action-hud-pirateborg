@@ -1,5 +1,6 @@
 // System Module Imports
 import { Utils } from "./utils.js";
+import {SystemManager} from "./system-manager.js";
 
 export let ActionHandler = null;
 const getMethods = (obj) => {
@@ -25,11 +26,11 @@ Hooks.once("tokenActionHudCoreApiReady", async (coreModule) => {
      * @param {array} groupIds
      */
     async buildSystemActions(groupIds) {
-      this.updateGroup({
+      this.groupHandler.updateGroup({
         id: "abilities",
         settings: { style: "list", showTitle: false },
       });
-      this.updateGroup({
+      this.groupHandler.updateGroup({
         id: "abilities_abilities",
         settings: { style: "list" },
       });
@@ -218,7 +219,7 @@ Hooks.once("tokenActionHudCoreApiReady", async (coreModule) => {
         name: "Ship Actions",
         type: "custom",
       };
-      this.updateGroup(updateData);
+      this.groupHandler.updateGroup(updateData);
       const spellGroupData = {
         id: "ship",
         type: "system",
@@ -336,7 +337,7 @@ Hooks.once("tokenActionHudCoreApiReady", async (coreModule) => {
         name: spellType,
         type: "custom",
       };
-      this.updateGroup(updateData);
+      this.groupHandler.updateGroup(updateData);
       const spellGroupData = {
         id: "spells",
         type: "system",

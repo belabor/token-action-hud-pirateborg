@@ -10,10 +10,10 @@
     }
   ],
   "url": "https://github.com/adracea/token-action-hud-pirateborg",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "compatibility": {
     "minimum": "10",
-    "verified": "11.315"
+    "verified": "12.324"
   },
   "esmodules": [
     "scripts/init.js"
