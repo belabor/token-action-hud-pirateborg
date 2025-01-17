@@ -9,7 +9,7 @@
       "discord": "drakkarson"
     }
   ],
-  "url": "https://github.com/adracea/token-action-hud-pirateborg",
+  "url": "https://github.com/belabor/token-action-hud-pirateborg",
   "version": "2.0.0",
   "compatibility": {
     "minimum": "10",
@@ -49,7 +49,7 @@
       "optional": []
     }
   },
-      "manifest": "https://github.com/adracea/token-action-hud-pirateborg/releases/latest/download/module.json",
-    "download": "https://github.com/adracea/token-action-hud-pirateborg/releases/download/1.0.0/module.zip",
-  "readme": "https://github.com/adracea/token-action-hud-pirateborg"
+      "manifest": "https://github.com/belabor/token-action-hud-pirateborg/releases/latest/download/module.json",
+    "download": "https://github.com/belabor/token-action-hud-pirateborg/releases/download/2.0.0/module.zip",
+  "readme": "https://github.com/belabor/token-action-hud-pirateborg"
 }
